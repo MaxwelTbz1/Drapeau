@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Drapeau du Bénin</title>
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 85px;
+    font-style: oblique;
+    text-align: center;
+
+}
+
+.flag {
+
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+
+}
+.green {
+    background-color: green;
+    flex: 1;
+
+}   
+.yellow-red {
+    display: flex;
+    flex-direction: column;  
+    flex: 2;
+
+}   
+.yellow
+
+ {
+
+    flex: 1;
+    background-color: yellow;
+ }
+
+.red 
+ {
+ 
+   background-color: red;
+   flex: 1;
+   
+ }
+
+ @media 
+ (max-width: 700px) {
+
+   .flag {
+    flex-direction: column;
+        
+      }
+   .green, .yellow-red {
+      flex-direction: column;
+      flex: 1;
+
+   }
+ 
+   .yellow, .red {
+    display: flex;
+    flex-direction: column;  
+    flex: 1;
+   }
+ }
+
+</style>
+
+</head>
+<body>
+<div class="flag">
+<div class="green"> Vert</div>
+<div class="yellow-red">
+<div class="yellow"> Jaune </div>
+<div class="red"> Rouge </div>
+</div>
+</div>
+</body>
+</html>
